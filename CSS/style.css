@@ -94,20 +94,42 @@ html{
     
 }
 
-.gallery .pic_one, .pic_two, .pic_three {
-    padding: 8em;
-    border: 1px solid #47525E;
-    align-items: center;
-    
-    
-}
 
+div.blog {
+    margin: 5%;
+    border: 1px solid #ccc;
+    float: center;
+    width: 340px;
+  }
+  
+  div.blog:hover {
+    border: 1px solid #777;
+  }
+  
+  div.blog img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: left;
+  }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
+}
+.blog .topic {
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFBA5C;
+}
+
+.blog .des {
+    font-size: 16px;
 }
     
 

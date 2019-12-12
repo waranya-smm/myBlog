@@ -355,6 +355,7 @@ ul li a:hover {
 }
 
 #myProj {
+  
   background-color: lightgray;
 }
 
@@ -405,4 +406,20 @@ footer {
   height: 100px;
   display: block;
   text-align: center;
+}
+
+.contIcon {
+  text-align: center;
+  margin-top: 400px;
+}
+
+.linkIcon{
+  color: #47525e;
+  padding: 0 10px;
+}
+
+.linkIcon:hover{
+  color:#ffba5c;
+  
+  
 }
